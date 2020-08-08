@@ -14,4 +14,8 @@
  **COMPONENTS** :
  - Structured, well-designed front end website, has to have reactive buttons for To-Do List and Timer descriptions. ( HTML/ CSS code)
  - Backend - link To-Do List headers to external websites (React.js)
- - 
+ 
+ **TECHNOLOGIES USED** :
+ - React — to render the HTML dynamically, based on the websites that the user wants to add
+ - localStorage — to save the data based on browser
+ - Google Classroom API
