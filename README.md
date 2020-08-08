@@ -1,4 +1,4 @@
-# n00bsatcode - GarudaHacks Solution
+# n00bsatcode -  Solution
  taking the education solutions path, this team notices that :
  
  **PROBLEMS TO ADDRESS :**
