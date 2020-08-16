@@ -28,6 +28,10 @@ ul {
   text-align: left;
 }
 
+li {
+  list-style-type: circle;
+}
+
 li.completed {
   color: rgba(0, 0, 0, 0.4);
   text-decoration: line-through;
