@@ -1,0 +1,28 @@
+#session-container {
+  border: 5px solid rgba(38,54,70,0.7);
+  box-shadow: 0 2px 16px rgba(0,0,0,0.40);
+  width: 300px;
+  margin: 35px auto;
+  border-radius: 25px;
+}
+
+.session-timer {
+  margin: 0 0 20px 0;
+  font-size: 5rem;
+  color: #263646;
+  font-weight: 400;
+}
+
+.session-header {
+  margin-top: 20px;
+}
+
+#colon {
+  position: relative;
+  bottom: 7px;
+  margin: 0 8px;
+}
+
+.timer-alert {
+  color: #C44949;
+}

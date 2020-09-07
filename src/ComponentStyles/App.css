@@ -1,0 +1,112 @@
+body {
+  background-color: #f2f2f2;
+  height: 150vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+main {
+  text-align: center;
+}
+
+.app-title {
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #263646;
+  margin-bottom: 0;
+}
+
+.App {
+  display: flex;
+  height: 200vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#interval-container {
+  display: flex;
+}
+
+.counter-btn {
+  border: none;
+  background-color: #462626;
+  outline: none;
+  color: #eee;
+  padding: 2px 12px;
+  height: 25px;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 55px;
+  text-align: center;
+}
+
+.counter-btn:hover {
+  box-shadow: 0 2px 16px rgba(0,0,0,0.30);
+}
+
+.counter-btn:disabled {
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 700px) {
+  #interval-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .app-title {
+    font-size: 3.5rem;
+  }
+}
+
+.TodoApp{
+  border: 5px solid rgba(38,54,70,0.7);
+  box-shadow: 0 2px 16px rgba(0,0,0,0.40);
+  min-height:735px;
+  width: 400px;
+  margin: 40px auto;
+  border-radius: 20px;
+}
+
+#to-do-form input{
+  border: 0;
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+  padding: 0 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 3px solid rgba(38,54,70,0.7);
+  box-shadow: 0 2px 16px rgba(0,0,0,0.40);
+}
+#to-do-form input::placeholder{
+  color: rgba(100,100,100,0.5);
+}
+#to-do-form input:focus{
+  outline: none;
+}
+
+#to-do-form button{
+  height: 40px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #462626;
+  color: #ccc;
+  cursor: pointer;
+}
+
+#to-do-form button:hover{
+  border: 5px solid rgba(38,54,70);
+  box-shadow: 0 2px 16px rgba(0,0,0,0.30);
+}
+
+#to-do-form button:focus{
+  outline: none;
+}
